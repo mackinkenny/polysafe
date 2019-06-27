@@ -751,7 +751,7 @@
             <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <img src="{{asset('images/down-pic-4.png')}}" alt="">
+                    <img class="w-100" src="{{asset('images/down-pic-4.png')}}" alt="">
                 </div>
                 <div class="col-md-6 col-12 cent">
                     <h2 class="font-weight-bold" style="font-size: 36px; line-height: 120%;">
