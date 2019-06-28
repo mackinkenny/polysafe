@@ -26,6 +26,7 @@ body{
 .nav-link.active {
     background: #00D9C0!important;
 }
+
 .tab-img {
     box-shadow: 10px 65px 30px -50px #09E2FD;
 }
@@ -52,6 +53,12 @@ body{
     to { box-shadow: 0 0 0 15px rgba(0, 0, 0, 0); }
 }
 @media only screen and (max-width: 760px) {
+    #main{
+        padding-top: 10% !important;
+    }
+    .main-ht{
+        height:auto!important;
+    }
     .bgt{
         background:none!important;
     }

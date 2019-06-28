@@ -2,8 +2,8 @@
 @push('styles')
 @endpush
 @section('content')
-<div class="" id="main" style="background-image: url({{asset('images/mainbg.png')}}); background-size: cover; background-position: left; padding-top:10%; padding-bottom:4%;">
-    <div class="container-fluid" style="padding-left: 7%;">
+<div class="" id="main" style="background-image: url({{asset('images/mainbg.png')}}); background-size: cover; background-position: left; padding-top:5%; padding-bottom:4%;">
+    <div class="container-fluid main-ht" style="padding-left: 7%; height: 100vh;">
         <div class="row">
         <div class="col-md-4 col-12" style="padding-top: 7%;">
             <h1 class="font-weight-bold text-media text-fut-bold" style="font-size: 46px; line-height: 120%;">
@@ -28,7 +28,7 @@
                 {{--<img class="w-100 text-fut-light main-bg" src="{{ asset('images/window.png') }}" alt="">--}}
             {{--</div>--}}
             <div class="col-md-6 col-12 text-right" style="padding-top: 10%">
-                <video class="w-100" controls autoplay>
+                <video class="w-100" controls autoplay muted>
                     <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
