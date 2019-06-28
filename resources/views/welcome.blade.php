@@ -24,8 +24,14 @@
             </div>
         </div>
             <div class="col-1"></div>
-            <div class="col-md-6 col-12 text-right">
-                <img class="w-100 text-fut-light main-bg" src="{{ asset('images/window.png') }}" alt="">
+            {{--<div class="col-md-6 col-12 text-right d-none">--}}
+                {{--<img class="w-100 text-fut-light main-bg" src="{{ asset('images/window.png') }}" alt="">--}}
+            {{--</div>--}}
+            <div class="col-md-6 col-12 text-right" style="padding-top: 10%">
+                <video class="w-100" controls autoplay>
+                    <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
 
@@ -103,7 +109,7 @@
             </div>
         </div>
         <div class="row pt-5 justify-content-end">
-            <div class="col-md-9 col-12 position-absolute pl-media" style="z-index: 1000; padding-left: 7%">
+            <div class="col-md-9 col-12 position-absolute pl-media" style="z-index: 1; padding-left: 7%">
                 <div class="container-fluid">
                 <ul class="row nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
                     <li class="nav-item col-md-3 col-6 picks">
@@ -116,7 +122,7 @@
                         <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var3" role="tab" aria-controls="" aria-selected="true">со створками</a>
                     </li>
                     <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">с узорами</a>
+                        <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">цветные</a>
                     </li>
                 </ul>
                 </div>
@@ -225,7 +231,7 @@
                                 <img class="tab-img varss" src="{{ asset('images/uzor.png') }}" alt="">
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4"  style="margin-top: 8%">
-                                <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Решетки с узорами</h3>
+                                <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Цветные решетки</h3>
                                 <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Витраж – один из вариантов декоративного оформления поликарбоната с помощью рисунков. При условии правильного выбора техники и самого узора можно создать неповторимое и уникальное оформление.
                         </span>
@@ -497,11 +503,11 @@
         </div>
         <div class="col-md-8 col-12 mt-md-0 mt-4 pr-0">
             <div class="row container pr-md-0 pr-0">
-                <div id="carouselExampleIndicators" class="carousel slide d-md-block d-none" data-ride="carousel">
+                <div id="carouselExampleIndicators2" class="carousel slide d-md-block d-none" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -564,20 +570,20 @@
                             </div>
                         </div>
                     </div>
-                    <a style="left:-5%;" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a style="left:-5%;" class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                         <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a style="right:-1%;" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a style="right:-1%;" class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                         <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
+                <div id="carouselExampleIndicators2" class="carousel slide d-md-none d-block" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -615,11 +621,11 @@
                             </div>
                         </div>
                     </div>
-                    <a style="left:-5%;" class="carousel-control-prev d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a style="left:-5%;" class="carousel-control-prev d-none" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                         <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a style="right:-1%;" class="carousel-control-next d-none" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a style="right:-1%;" class="carousel-control-next d-none" href="#carouselExampleIndicators2" role="button" data-slide="next">
                         <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Next</span>
                     </a>
@@ -628,7 +634,7 @@
 </div>
 </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid d-none">
     <div class="row justify-content-center">
         <div class="col-md-4 col-12 pb-5" style="padding-right: 5%;">
             <h2 class="font-weight-bold pl-3 text-fut-bold" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
@@ -778,13 +784,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner d-md-none d-block">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <img class="p-3 h-100 mt-auto" src="{{ asset('images/gallery1.png') }}" alt="">
@@ -816,17 +816,10 @@
                     </div>
                 </div>
             </div>
-            <a style="left:-20%!important;" class="carousel-control-prev d-md-block d-none" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <i class="fas fa-arrow-left" style="font-size:30px; color:black;"></i>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a style="right:-20%!important;" class="carousel-control-next d-md-block d-none" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <i class="fas fa-arrow-right" style="font-size:30px; color:black;"></i>
-                <span class="sr-only">Next</span>
-            </a>
+
         </div>
     </div>
-</div>
+
 
 <div class="container-fluid">
     <div class="row bgt ml-0" style="background-image: url({{asset('images/down-pic.png')}}); background-size: 100% 100%; padding-top: 2%; padding-bottom: 8%!important;">
@@ -873,11 +866,13 @@
                     как можно быстрее
                 </p>
                 <p class="mb-0 text-fut-light">Телефон:</p>
-                <p class="font-weight-bold text-fut-bold">+998907888181</p>
+                <p class="font-weight-bold text-fut-bold">+996554803838</p>
+                <p class="font-weight-bold text-fut-bold">+996557088444</p>
+                <p class="font-weight-bold text-fut-bold">+996703803838</p>
                 <p class="mb-0 text-fut-light">E-mail:</p>
-                <p class="font-weight-bold text-fut-bold">info@yourcompany.com</p>
+                <p class="font-weight-bold text-fut-bold">askar@sa.kg</p>
                 <p class="mb-0 text-fut-light">Адрес:</p>
-                <p class="font-weight-bold text-fut-bold">г. Бишкек</p>
+                <p class="font-weight-bold text-fut-bold">г. Бишкек, ТЦ "Мегакомфорт"</p>
             </div>
                 <div class="col-md-6 col-12 px-md-5 px-0 pt-md-0 pt-5">
                     <div class="text-center">
@@ -920,15 +915,21 @@
                     <h2 class="mb-3" style="font-size: 25px; line-height: 120%; color: white;">
                         Рассчитайте стоимость бесплатно
                     </h2>
-                    <form action="">
-                        <input class="w-100 mb-2 p-2" type="text" placeholder="Ширина окна">
-                        <input class="w-100 mb-2 p-2" type="text" placeholder="Высота окна">
-                        <input class="w-100 mb-2 p-2" type="text" placeholder="Введите имя*">
-                        <input class="w-100 mb-2 p-2" type="text" placeholder="Введите телефон*">
-                        <input class="w-100 mb-2 p-2" type="text" placeholder="Введите E-mail*">
+                    <div class="send-success p-4 d-none">
+                        <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2">Заявка успешно отправленна!</span>
+                    </div>
+                    <div class="send-error p-4 d-none">
+                        <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                    </div>
+                    <form id=contactform" class="validateform">
+                        @csrf
+                        <input class="w-100 mb-2 p-2" name="width" type="text" placeholder="Ширина окна">
+                        <input class="w-100 mb-2 p-2" name="height" type="text" placeholder="Высота окна">
+                        <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Введите имя*">
+                        <input class="w-100 mb-2 p-2" name="phone" type="text" placeholder="Введите телефон*">
+                        <input class="w-100 mb-2 p-2" name="E-mail" type="text" placeholder="Введите E-mail*">
                         <input class="py-2 px-3 mt-3" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="рассчитать стоимость">
                     </form>
-
                 </div>
             </div>
         </div>
@@ -936,17 +937,42 @@
 </div>
 
 <div type="button" class="callback-bt d-md-block d-none">
+    <a href="tel: +996554803838">
     <div class="text-call">
         <i class="fa fa-phone"></i>
     </div>
+    </a>
 </div>
-<div type="button" class="email-bt d-md-block d-none">
-    <div class="text-call">
-        <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+<div type="button" class="email-bt d-md-block d-none rounded" style="border-radius:30px!important;">
+    <a href="https://api.whatsapp.com/send?phone=996554803838">
+    <div class="text-call" style="border-radius:30px!important;">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
     </div>
+    </a>
 </div>
 @push('scripts')
+    <script>
+        $("contactform").submit(function(e){
+            e.preventDefault();
+            log(sadf);
+            var token = $("input[name=_token]").val(); // The CSRF token
+            var width = $("input[name=width]").val();
+            var height = $("input[name=height]").val();
+            var name = $("input[name=name]").val();
+            var phone = $("input[name=phone]").val();
+            var email = $("input[name=email]").val();
 
+            $.ajax({
+                type:'POST',
+                url:'/mail',
+                dataType: 'json',
+                data:{_token: token, width:width, height:height, email:email, phone:phone, name:name},
+                success:function(data){
+                    alert(data.success);
+                }
+            });
+        });
+    </script>
     @endpush
 @endsection
 

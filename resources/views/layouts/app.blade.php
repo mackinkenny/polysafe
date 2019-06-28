@@ -7,7 +7,8 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Polysafe') }}</title>
+    <title>Polysafe</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/png">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -37,7 +38,7 @@
 <body>
 @include('_partials.header')
 <div id="app">
-    <main class="">
+    <main>
         @yield('content')
     </main>
 </div>
@@ -64,7 +65,16 @@
         });
     });
 </script>
-
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#pick").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 500);
+            });
+        });
+</script>
 @stack('scripts')
 </body>
 </html>

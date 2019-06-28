@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-11 col-10 collapse navbar-collapse">
                 <nav class="ml-md-auto ml-0">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
                             <a href="#main" class="text-dark text-fut-bold" style="text-decoration: none;">Главная</a>
                         </li>
@@ -22,7 +22,6 @@
                         <li class="nav-item p-2">
                             <a href="#galler" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
                         </li>
-
                     </ul>
                 </nav>
             </div>
@@ -32,14 +31,14 @@
 
 <nav class="d-xl-none navbar fixed-bottom navbar-expand-lg px-0 py-0 shadow-top" >
     <div class="container-fluid p-0">
-        <div class="col-3 p-0 mr-auto bg-white" style="border-top-right-radius: 40px;">
-            <a href="" class="nav-link text-center px-0 py-2" style="color:#00D9C0">
-                <i class="fab fa-telegram-plane fa-2x" aria-hidden="true"></i>
+        <div class="col-3 p-0 mr-auto" style="border-top-right-radius: 40px; background-color: #00D9C0;">
+            <a href="https://api.whatsapp.com/send?phone=996554803838" class="nav-link text-center px-0 py-2" style="color:white">
+                <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i>
             </a>
         </div>
 
-        <div class="col-3 p-0 bg-white" style="border-top-left-radius: 40px;">
-            <a href="" class="nav-link  text-center px-0 py-2" style="color:#00D9C0">
+        <div class="col-3 p-0" style="border-top-left-radius: 40px; background-color: #00D9C0;">
+            <a href="tel: +996554803838" class="nav-link  text-center px-0 py-2" style="color:white">
                 <i class="fa fa-phone fa-2x"></i>
             </a>
         </div>
