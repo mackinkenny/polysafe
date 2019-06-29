@@ -656,7 +656,7 @@
         Галерея
         наших окон
     </h2>
-    <div class="row justify-content-center">
+    <div class="container-fluid row justify-content-center">
         <div id="carouselExampleIndicators" class="carousel slide d-md-block d-none" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

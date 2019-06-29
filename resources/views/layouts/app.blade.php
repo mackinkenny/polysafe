@@ -53,13 +53,13 @@
                 $('.menuse').addClass('solid-nav');
                 $('.menuse').addClass('shadow');
 
-                $('.logo').removeClass('w-75');
-                $('.logo').addClass('w-50');
+                $('.logo').hide();
+                $('.logo').show();
             } else {
                 $('.menuse').removeClass('solid-nav');
                 $('.menuse').removeClass('shadow');
-                $('.logo').removeClass('w-50',300);
-                $('.logo').addClass('w-75',300);
+                $('.logo').show();
+                $('.logo').hide();
             }
 
         });

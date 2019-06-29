@@ -2,9 +2,9 @@
 <nav class="navbar menuse navbar-expand-xl py-0 w-100 pr-0 d-md-block d-none" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container-fluid">
         <div class="row w-100">
-            <div class="col-md-1 col-4 px-4 py-2">
-                <a href="/">
-                    <img class="w-75 logo" src="{{asset('images/logo.png')}}" alt="">
+            <div class="col-md-1 col-4 px-4 py-2" style="height: 60px;">
+                <a href="/" style="">
+                    <img class="w-50 logo" style="display: none;" src="{{asset('images/logo.png')}}" alt="">
                 </a>
             </div>
             <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
