@@ -53,11 +53,13 @@
 
             if (scrollTop >= height - 5) {
                 $('.menuse').addClass('solid-nav');
+                $('.menuse').addClass('shadow');
 
                 $('.logo').removeClass('w-75');
                 $('.logo').addClass('w-50');
             } else {
                 $('.menuse').removeClass('solid-nav');
+                $('.menuse').removeClass('shadow');
                 $('.logo').removeClass('w-50',300);
                 $('.logo').addClass('w-75',300);
             }

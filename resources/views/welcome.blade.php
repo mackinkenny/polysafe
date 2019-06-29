@@ -113,16 +113,16 @@
                 <div class="container-fluid">
                 <ul class="row nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
                     <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light active" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var1" role="tab" aria-controls="" aria-selected="true">горизонтальные</a>
+                        <a class="nav-link p-md-3 text-center text-fut-light tabs-media active" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var1" role="tab" aria-controls="" aria-selected="true">горизонтальные</a>
                     </li>
                     <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var2" role="tab" aria-controls="" aria-selected="true">вертикальные</a>
+                        <a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var2" role="tab" aria-controls="" aria-selected="true">вертикальные</a>
                     </li>
                     <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var3" role="tab" aria-controls="" aria-selected="true">со створками</a>
+                        <a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var3" role="tab" aria-controls="" aria-selected="true">со створками</a>
                     </li>
                     <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">цветные</a>
+                        <a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">цветные</a>
                     </li>
                 </ul>
                 </div>
@@ -328,7 +328,7 @@
                     <div id="b6" class="butt"></div>
                 </label>
                 <p class="cent text-fut-light" style="padding-top:8%; font-size: 16px; line-height: 21px;">
-                    Крепления распологаются с шаком в 14см.
+                    Крепления распологаются с шагом в 14см.
                 </p>
             </div>
         </div>
@@ -358,13 +358,13 @@
                 </p>
             </div>
             <div class="col-md-6 col-12">
-                <div class="row">
+                <div class="row container-fluid">
                     <h2 class="font-weight-bold pl-3 text-media mt-md-0 mt-4 text-fut-bold" style="color:white; font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
                         Преимущества использования
                         прозрачных решеток на окнах
                     </h2>
                     <div class="row">
-                        <div class="col-md-5 col-12 pt-4">
+                        <div class="col-md-5 col-12 pt-4 pr-md-4 pr-0">
                             <span class=""  style="font-size: 16px; line-height: 120%; color:white; font-family: 'Futura PT Light';">
                                 Решетки выполнены из
                                 прозрачного поликарбоната.
@@ -376,7 +376,7 @@
                                 окно или балкон на любой этаж.
                             </span>
                         </div>
-                        <div class="col-md-7 col-12 pt-4">
+                        <div class="col-md-7 col-12 pt-4 pr-md-4 pr-0">
                             <span class=""  style="font-size: 16px; line-height: 120%; color:white; font-family: 'Futura PT Light'">
                                 Он в два раза легче и в 250 раз прочнее стекла. И при этом удивительно гибок. Материал спокойно выдерживает удары молотком, битой, топором. Да что говорить, достаточно и одного факта: именно поликарбонат используется в качестве лицевого щитка в космическом скафандре. Одним словом: материал достойный.
                             </span>
@@ -472,13 +472,13 @@
         </div>
             <div class="col-md-6 col-12 mt-md-0 mt-5">
                 <div class="row justify-content-center">
-        <div class="col-3 pr-0 text-right" style="padding-top:10%; z-index:10;">
+        <div class="col-md-3 col-4 pr-0 text-right" style="padding-top:10%; z-index:10;">
             <img class="w-100"  src="{{ asset('images/safe1.png') }}" alt="">
         </div>
-            <div class="col-3" style="z-index:10;">
+            <div class="col-md-3 col-4" style="z-index:10;">
                 <img class="w-100" style="z-index:10; box-shadow: 0px 45px 40px -30px #09E2FD;" src="{{ asset('images/safe2.png') }}" alt="">
             </div>
-                    <div class="col-2 pl-0" style="padding-top:13%;z-index:10;">
+                    <div class="col-md-2 col-3 pad-t pl-0" style="padding-top:13%;z-index:10;">
                         <img class="w-100" style="z-index:10;" src="{{ asset('images/safe3.png') }}" alt="">
                     </div>
                 </div>
@@ -784,6 +784,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        <div class="container-fluid">
             <div class="carousel-inner d-md-none d-block">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
@@ -816,7 +817,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
         </div>
     </div>
 
@@ -866,13 +867,13 @@
                     как можно быстрее
                 </p>
                 <p class="mb-0 text-fut-light">Телефон:</p>
-                <p class="font-weight-bold text-fut-bold">+996554803838</p>
-                <p class="font-weight-bold text-fut-bold">+996557088444</p>
-                <p class="font-weight-bold text-fut-bold">+996703803838</p>
+                <p><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996554803838</a></p>
+                <p><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996557088444</a></p>
+                <p><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996703803838</a></p>
                 <p class="mb-0 text-fut-light">E-mail:</p>
-                <p class="font-weight-bold text-fut-bold">askar@sa.kg</p>
+                <p><a href="mailto:askar@sa.kg" class="font-weight-bold text-fut-bold" style="color:black;">askar@sa.kg</a></p>
                 <p class="mb-0 text-fut-light">Адрес:</p>
-                <p class="font-weight-bold text-fut-bold">г. Бишкек, ТЦ "Мегакомфорт"</p>
+                <p><a href="https://2gis.kg/bishkek/firm/70000001019370919?queryState=center%2F74.615386%2C42.870138%2Fzoom%2F18" style="color:black;" class="font-weight-bold text-fut-bold">г. Бишкек, ТЦ "Мегакомфорт"</a></p>
             </div>
                 <div class="col-md-6 col-12 px-md-5 px-0 pt-md-0 pt-5">
                     <div class="text-center">

@@ -97,6 +97,13 @@ body{
         position: static!important;
         padding-bottom:3%;
     }
+    .pad-t
+    {
+        padding-top: 6%!important;
+    }
+    .tabs-media{
+        font-size: 14px!important;
+    }
 }
 .gallery {
    opacity: 1;
