@@ -2,7 +2,7 @@
 <nav class="navbar menuse navbar-expand-xl py-0 w-100 pr-0 d-md-block d-none" style="z-index: 999; background: rgba(0,0,0,0); position: fixed;">
     <div class="container-fluid">
         <div class="row w-100">
-            <div class="col-md-1 col-4 px-4 py-2" style="height: 60px;">
+            <div class="col-md-1 col-4 px-4 py-2" style="height: 8vh;">
                 <a href="/" style="">
                     <img class="w-50 logo" style="display: none;" src="{{asset('images/logo.png')}}" alt="">
                 </a>

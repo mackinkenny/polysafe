@@ -2,7 +2,7 @@
 @push('styles')
 @endpush
 @section('content')
-    <video class="w-100" style="position: absolute; opacity: 0.5" autoplay muted loop>
+    <video class="w-100" style="position: absolute; opacity: 0.5" preload="metadata" autoplay muted loop>
         <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
