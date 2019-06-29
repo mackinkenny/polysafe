@@ -15,4 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/mail', 'MailController@mail');
+Route::post('/mail', 'MailController@mail')->name('mail');
+Route::post('/feedback', 'MailController@feedback')->name('feedback');
+Route::post('/message', 'MailController@message')->name('message');

@@ -20,7 +20,13 @@
                             <a href="#advantages" class="text-dark text-fut-bold" style="text-decoration: none;">Преимущества</a>
                         </li>
                         <li class="nav-item p-2">
+                            <a href="#feedback" class="text-dark text-fut-bold" style="text-decoration: none;">Отзывы</a>
+                        </li>
+                        <li class="nav-item p-2">
                             <a href="#galler" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a href="#contact" class="text-dark text-fut-bold" style="text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -54,7 +60,13 @@
                             <a href="#advantages" class="text-dark text-fut-bold" style="text-decoration: none;">Преимущества</a>
                         </li>
                         <li class="nav-item p-2">
+                            <a href="#feedback" class="text-dark text-fut-bold" style="text-decoration: none;">Отзывы</a>
+                        </li>
+                        <li class="nav-item p-2">
                             <a href="#galler" class="text-dark text-fut-bold" style="text-decoration: none;">Галерея</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a href="#contact" class="text-dark text-fut-bold" style="text-decoration: none;">Контакты</a>
                         </li>
                     </ul>
                 </nav>

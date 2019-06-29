@@ -425,3 +425,14 @@ body{
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
+.ica{
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.ica:hover{
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -o-transform: scale(1.10);
+}

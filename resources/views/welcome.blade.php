@@ -2,13 +2,22 @@
 @push('styles')
 @endpush
 @section('content')
-    <video class="w-100" style="position: absolute; opacity: 0.5" preload="metadata" autoplay muted loop>
+    <video class="w-100 d-md-block d-none" style="position: absolute; opacity: 0.5" preload="metadata" autoplay muted loop>
         <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
+    <div class="d-md-none d-block" style="padding-top:20%;">
+        <a href="{{URL::asset("/images/Polysafe.mp4")}}">
+        <video class="w-100" preload="metadata" autoplay muted loop>
+            <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </a>
+    </div>
 <div class="" id="main" style="padding-top:5%; padding-bottom:4%;">
     <div class="container-fluid main-ht" style="padding-left: 7%; height: 100vh;">
         <div class="row">
+
         <div class="col-md-4 col-12" style="padding-top: 7%;">
             <h1 class="font-weight-bold text-media text-fut-bold" style="font-size: 46px; line-height: 120%;">
                 Прозрачные
@@ -28,9 +37,14 @@
             </div>
         </div>
             <div class="col-1"></div>
-            {{--<div class="col-md-6 col-12 text-right d-none">--}}
+            <div class="col-md-6 col-12 text-right d-md-block d-none" style="padding-top:15%;">
+                <a href="{{URL::asset("/images/Polysafe.mp4")}}" style="text-decoration: none;">
+                <i class="far fa-play-circle fa-10x text-secondary ica"></i>
+                <br>
+                <p class="pr-4 pt-2 text-secondary text-fut-bold">Смотреть видео</p>
+                </a>
                 {{--<img class="w-100 text-fut-light main-bg" src="{{ asset('images/window.png') }}" alt="">--}}
-            {{--</div>--}}
+            </div>
         </div>
 
     </div>
@@ -85,10 +99,10 @@
                         Заполните заявку, чтобы
                         получить скидку 10%
                     </p>
-                    <form class="p-2" action="">
+                    <form class="p-2" method="POST" enctype="multipart/form-data">
                         <input class="w-100 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Ведите телефон*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите E-mail*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone" name="phone" placeholder="Ведите телефон*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="email" name="email" placeholder="Введите E-mail*">
                         <input class="py-2 px-4 mt-3 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="отправить заявку">
                     </form>
                     </div>
@@ -142,13 +156,7 @@
                                 <p class="pt-3">
                                 <i class="fas fa-check-circle" style="color:#00D9C0;"></i>
                                     <span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">
-                                        простая система установки
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="fas fa-check-circle" style="color:#00D9C0;"></i>
-                                    <span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">
-                                        простая система установки
+                                        самый популярный вариант
                                     </span>
                                 </p>
                                 <p>
@@ -262,7 +270,7 @@
         <div class="row justify-content-center pb-5">
             <div class="col-md-6 col-12">
                 <h2 class="font-weight-bold pl-3 text-media text-fut-bold" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
-                    Технические характерисики решеток
+                    Технические характеристики решеток
                     на окна из поликарбоната
                 </h2>
             </div>
@@ -397,7 +405,7 @@
                 </span>
             </div>
         </div>
-        <form class="pb-4" action="">
+        <form class="pb-4"  method="POST" enctype="multipart/form-data">
             <div class="row mt-5">
                     <div class="col-md-3 col-12">
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
@@ -409,7 +417,7 @@
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email" name="email" placeholder="Введите E-mail*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3 cent">
-                        <button data-toggle="modal" data-target="#priceModal"  class="py-3 text-fut-light" type="submit" style="padding-left:20%; padding-right:20%; color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                        <button class="py-3 text-fut-light" type="submit" style="padding-left:20%; padding-right:20%; color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                             Отправить
                         </button>
                     </div>
@@ -464,7 +472,7 @@
             <p class="font-weight-bold text-fut-light" style="font-size: 16px; line-height: 120%;">
                 Защитите своих малышей от выпадения из окна.
             </p>
-            <button class="py-2 px-3 mt-5" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+            <button data-toggle="modal" data-target="#priceModal" class="py-2 px-3 mt-5" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                 Рассчитать стоимость
             </button>
         </div>
@@ -487,7 +495,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid " style="padding-bottom: 10%">
+<div class="container-fluid" id="feedback" style="padding-bottom: 10%">
     <div class="row">
         <div class="col-md-4 col-12" style="padding-left:8%;">
             <h2 class="font-weight-bold pl-3 text-media text-fut-bold" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
@@ -495,7 +503,7 @@
                 безопасность своих
                 домочадцев
             </h2>
-            <button class="py-2 px-3 mt-5 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+            <button data-toggle="modal" data-target="#feedbackModal" class="py-2 px-3 mt-5 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                 Оставить отзыв
             </button>
         </div>
@@ -505,34 +513,31 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        {{--<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>--}}
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center">
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
+                                    Надежно и красиво
+                                    <br>
+                                    "Нам посоветовали поликарбонатные решетки, оказалось не зря.
+                                    Выглядят они на порядок лучше, при этом по прочности железу
+                                    не уступают. По крайней мере, мы пытались сломать - не смогли.
+                                    Теперь спокойно покидаем дом, да и окна открываем в жару,
+                                    не опасаясь, что кот выскочит на улицу или ребенок вывалится из окна."
                                     <div class="pt-4 text-fut-bold">
-                                        Айдана Кулатова
+                                        Мира Раимкулова
                                     </div>
                                 </div>
 
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
+                                    "Меня всегда раздражали старые металлические решетки. Как только у нас начали
+                                    устанавливать прозрачные решетки, решила на свой страх и риск поменять защиту
+                                    на окнах. После их установки в комнатах стало светлее. С безопасностью тоже
+                                    все в полном порядке – надежность решеток проверяли мои недоверчивые и сильные друзья."
                                     <div class="pt-4 text-fut-bold">
-                                        Айдана Кулатова
+                                        Светлана Гилунова
                                     </div>
                                 </div>
 
@@ -541,31 +546,28 @@
                         <div class="carousel-item">
                             <div class="row container justify-content-center">
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
+                                    "Современные, не ржавеют, можно даже из нержавейки раму. Пропускают свет, защищают окна.
+                                    Заказали, изготовили за неделю. На деле не проверишь, но материал удачный - очень прозрачный, толстый.
+                                    Смонтировали быстро, натянули ламели. Мыть сказали раз в год весной - тряпкой с мыльным раствором.
+                                    Жена довольна, теперь окна можно открывать - не страшно оставлять ребенка с бабушкой. Душа спокойна."
                                     <div class="pt-4 text-fut-bold">
                                         Айдана Кулатова
                                     </div>
                                 </div>
-                                <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
-                                    <div class="pt-4 text-fut-bold">
-                                        Айдана Кулатова
-                                    </div>
-                                </div>
+                                {{--<div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">--}}
+                                    {{--Давно выяснено, что при оценке дизайна и композиции--}}
+                                    {{--читаемый текст мешает сосредоточиться. Lorem Ipsum--}}
+                                    {{--используют потому, что тот обеспечивает более или--}}
+                                    {{--менее стандартное заполнение шаблона, а также реальное--}}
+                                    {{--распределение букв и пробелов в абзацах, которое не--}}
+                                    {{--получается при простой дубликации "Здесь ваш текст..--}}
+                                    {{--Здесь ваш текст.. Здесь ваш текст.."--}}
+                                    {{--<div class="pt-4 text-fut-bold">--}}
+                                        {{--Айдана Кулатова--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
 
-                            </div>
+                            {{--</div>--}}
                         </div>
                     </div>
                     <a style="left:-5%;" class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -577,6 +579,7 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                </div>
                 <div id="carouselExampleIndicators2" class="carousel slide d-md-none d-block" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
@@ -587,15 +590,15 @@
                         <div class="carousel-item active">
                             <div class="row container justify-content-center pr-0 mr-0">
                                 <div class="col-md-12 m-2 col-12 p-4 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
+                                    Надежно и красиво
+                                    <br>
+                                    "Нам посоветовали поликарбонатные решетки, оказалось не зря.
+                                    Выглядят они на порядок лучше, при этом по прочности железу
+                                    не уступают. По крайней мере, мы пытались сломать - не смогли.
+                                    Теперь спокойно покидаем дом, да и окна открываем в жару,
+                                    не опасаясь, что кот выскочит на улицу или ребенок вывалится из окна."
                                     <div class="pt-4 text-fut-bold">
-                                        Айдана Кулатова
+                                        Мира Косорукова
                                     </div>
                                 </div>
 
@@ -604,13 +607,24 @@
                         <div class="carousel-item">
                             <div class="row container justify-content-center pr-0 mr-0">
                                 <div class="col-md-12 m-2 col-12 p-4 text-fut-light shadow" style="font-size: 16px;">
-                                    Давно выяснено, что при оценке дизайна и композиции
-                                    читаемый текст мешает сосредоточиться. Lorem Ipsum
-                                    используют потому, что тот обеспечивает более или
-                                    менее стандартное заполнение шаблона, а также реальное
-                                    распределение букв и пробелов в абзацах, которое не
-                                    получается при простой дубликации "Здесь ваш текст..
-                                    Здесь ваш текст.. Здесь ваш текст.."
+                                    "Меня всегда раздражали старые металлические решетки. Как только у нас начали
+                                    устанавливать прозрачные решетки, решила на свой страх и риск поменять защиту
+                                    на окнах. После их установки в комнатах стало светлее. С безопасностью тоже
+                                    все в полном порядке – надежность решеток проверяли мои недоверчивые и сильные друзья."
+                                    <div class="pt-4 text-fut-bold">
+                                        Светлана Гилунова
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row container justify-content-center pr-0 mr-0">
+                                <div class="col-md-12 m-2 col-12 p-4 text-fut-light shadow" style="font-size: 16px;">
+                                    "Современные, не ржавеют, можно даже из нержавейки раму. Пропускают свет, защищают окна.
+                                    Заказали, изготовили за неделю. На деле не проверишь, но материал удачный - очень прозрачный, толстый.
+                                    Смонтировали быстро, натянули ламели. Мыть сказали раз в год весной - тряпкой с мыльным раствором.
+                                    Жена довольна, теперь окна можно открывать - не страшно оставлять ребенка с бабушкой. Душа спокойна."
                                     <div class="pt-4 text-fut-bold">
                                         Айдана Кулатова
                                     </div>
@@ -782,42 +796,45 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <div class="container-fluid">
-            <div class="carousel-inner d-md-none d-block">
+</div>
+    <div class="container-fluid row justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100 mt-auto" src="{{ asset('images/gallery1.png') }}" alt="">
+                                <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100" src="{{ asset('images/gallery2.png') }}" alt="">
+                        <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100" src="{{ asset('images/gallery3.png') }}" alt="">
+                        <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100" src="{{ asset('images/gallery4.png') }}" alt="">
+                        <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100" src="{{ asset('images/gallery5.png') }}" alt="">
+                        <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <img class="p-3 h-100" src="{{ asset('images/gallery6.png') }}" alt="">
+                        <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
                     </div>
                 </div>
             </div>
-        </div>
+
         </div>
     </div>
+</div>
 
 
 <div class="container-fluid">
@@ -833,8 +850,7 @@
                         Установите прозрачные решетки на первые 2 окна со скидкой 10%
                     </h2>
                     <p class="pt-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
-                        Давно выянено, что при оценке дизайна и композиции читаемый текст мешает
-                        сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее
+                        Надёжная защита от Polysafe выгодно! Закажите решетки на первые 2 окна со скидкой 10%.
                     </p>
                     <button data-toggle="modal" data-target="#priceModal"  class="py-2 px-3 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                         Рассчитать стоимость
@@ -848,7 +864,7 @@
 
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="contact">
         <div class="col-md-4 col-12 px-0">
             <img class="w-100 h-100" src="{{asset('images/down-pic2.png')}}" alt="">
         </div>
@@ -879,12 +895,19 @@
                         Заполните заявку, чтобы
                         получить скидку 10%
                     </h2>
-                    <form action="">
+                    <form action="{{ route('message') }}" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
                         <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Ведите телефон*">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите E-mail*">
+                        </div>
+                        <div class="form-group">
+                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone" name="phone" placeholder="Ведите телефон*">
+                        </div>
+                        <div class="form-group">
+                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email" name="email" placeholder="Введите E-mail*">
+                        </div>
+                        <div class="form-group">
                         <input class="py-2 px-4 mt-3 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="отправить заявку">
-
+                        </div>
                     </form>
                     </div>
 
@@ -920,20 +943,86 @@
                     <div class="send-error p-4 d-none">
                         <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
                     </div>
-                    <form id=contactform" class="validateform">
-                        @csrf
-                        <input class="w-100 mb-2 p-2" name="width" type="text" placeholder="Ширина окна">
-                        <input class="w-100 mb-2 p-2" name="height" type="text" placeholder="Высота окна">
-                        <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Введите имя*">
-                        <input class="w-100 mb-2 p-2" name="phone" type="text" placeholder="Введите телефон*">
-                        <input class="w-100 mb-2 p-2" name="E-mail" type="text" placeholder="Введите E-mail*">
-                        <input class="py-2 px-3 mt-3" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="рассчитать стоимость">
+                    <form action="{{ route('mail') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                        <div class="form-group">
+                            <input class="w-100 mb-2 p-2" name="width" type="text" placeholder="Ширина окна">
+                        </div>
+                        <div class="form-group">
+                            <input class="w-100 mb-2 p-2" name="height" type="text" placeholder="Высота окна">
+                        </div>
+                        <div class="form-group">
+                            <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Введите имя*" required>
+                        </div>
+                        <div class="form-group">
+                            <input class="w-100 mb-2 p-2" name="phone" type="tel" placeholder="Введите телефон*" required>
+                        </div>
+                        <div class="from-group">
+                            <input class="w-100 mb-2 p-2" name="email" type="email" placeholder="Введите E-mail*" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="py-2 px-3 mt-3" type="submit"
+                                    style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                                рассчитать стоимость
+                            </button>
+                        </div>
                     </form>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+    <div class="modal fade" id="feedbackModal" tabindex="15" role="form"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content" style="background: linear-gradient(158.72deg, #00D9C0 8.63%, #42559B 96.78%);">
+                {{--<div class="modal-header">--}}
+                {{--<h5 class="modal-title text-secondary" id="exampleModalLabel"></h5>--}}
+                {{----}}
+                {{--</div>--}}
+                <div>
+                    <div class="modal-body p-5 text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h2 class="mb-3" style="font-size: 25px; line-height: 120%; color: white;">
+                            Оставьте нам свой отзыв
+                        </h2>
+                        <div class="send-success p-4 d-none">
+                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2">Заявка успешно отправленна!</span>
+                        </div>
+                        <div class="send-error p-4 d-none">
+                            <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                        </div>
+                        <form action="{{ route('feedback') }}" method="POST" enctype="multipart/form-data">
+                            @csrf
+                            <div class="form-group">
+                                <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Ваше имя*" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="w-100 mb-2 p-2" name="phone" type="tel" placeholder="Ваша телефон*" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="w-100 mb-2 p-2" name="email" type="email" placeholder="Введите E-mail*" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="w-100 mb-2 p-2" name="message" type="message" placeholder="Сообщение*" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="py-2 px-3 mt-3" type="submit"
+                                        style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                                    рассчитать стоимость
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <div type="button" class="callback-bt d-md-block d-none">
     <a href="tel: +996554803838">
@@ -950,28 +1039,6 @@
     </a>
 </div>
 @push('scripts')
-    <script>
-        $("contactform").submit(function(e){
-            e.preventDefault();
-            log(sadf);
-            var token = $("input[name=_token]").val(); // The CSRF token
-            var width = $("input[name=width]").val();
-            var height = $("input[name=height]").val();
-            var name = $("input[name=name]").val();
-            var phone = $("input[name=phone]").val();
-            var email = $("input[name=email]").val();
-
-            $.ajax({
-                type:'POST',
-                url:'/mail',
-                dataType: 'json',
-                data:{_token: token, width:width, height:height, email:email, phone:phone, name:name},
-                success:function(data){
-                    alert(data.success);
-                }
-            });
-        });
-    </script>
-    @endpush
+@endpush
 @endsection
 

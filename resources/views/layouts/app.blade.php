@@ -13,7 +13,7 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- Fonts -->
+    <!-- Fonts --><script src="{{asset('js/jquery-3.4.1.min.js')}}" type="text/javascript"></script>
     {{--<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="http://fonts.googleapis.com/css?family=Futura PTt&amp;ver=1559628150" type="text/css" media="all">--}}
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -27,6 +27,7 @@
     {{--<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>--}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- Styles -->
 
@@ -42,7 +43,7 @@
         @yield('content')
     </main>
 </div>
-<script src="{{asset('js/jquery-3.4.1.min.js')}}" type="text/javascript"></script>
+
 <script>
     $(document).ready(function() {
         $(window).scroll(function() {
@@ -75,12 +76,6 @@
             });
         });
 </script>
-<script>
-    $('.navi>button').on('click', function(){
-        $('.navbar-collapse').collapse('hide').delay(1000);
-    });
-</script>
-
 @stack('scripts')
 </body>
 </html>
