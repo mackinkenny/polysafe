@@ -41,7 +41,7 @@
                     <i class="fas fa-bars fa-lg"></i>
                 </button>
             </div>
-            <div class="col-md-11 col-8 collapse navbar-collapse"  id="navbarSupportedContent">
+            <div class="collapse navbar-collapse col-md-11 col-8"  id="navbarSupportedContent">
                 <nav class="ml-md-auto ml-0">
                     <ul class="navbar-nav" id="pick">
                         <li class="nav-item p-2">
@@ -77,4 +77,5 @@
         </div>
     </div>
 </nav>
+
 
