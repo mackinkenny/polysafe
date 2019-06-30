@@ -99,10 +99,10 @@
                         Заполните заявку, чтобы
                         получить скидку 10%
                     </p>
-                        <div class="send-success-message-3 p-4 d-none" >
+                        <div class="send-success-message-3 px-4 d-none" >
                             <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-dark">Заявка успешно отправлена!</span>
                         </div>
-                        <div class="send-error-message-3 p-4 d-none">
+                        <div class="send-error-message-3 px-4 d-none">
                             <i class="fas fa-exclamation-circle text-fut-bold text-dark" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
                         </div>
                     <form class="p-2" method="POST" enctype="multipart/form-data">
@@ -898,9 +898,9 @@
                     как можно быстрее
                 </p>
                 <p class="mb-0 text-fut-light">Телефон:</p>
-                <p><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996554803838</a></p>
-                <p><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996557088444</a></p>
-                <p><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996703803838</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996554803838</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996557088444</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996703803838</a></p>
                 <p class="mb-0 text-fut-light">E-mail:</p>
                 <p><a href="mailto:askar@sa.kg" class="font-weight-bold text-fut-bold" style="color:black;">askar@sa.kg</a></p>
                 <p class="mb-0 text-fut-light">Адрес:</p>
@@ -913,22 +913,22 @@
                         получить скидку 10%
                     </h2>
 
-                        <div class="send-success-message-1 p-4 d-none" >
+                        <div class="send-success-message-1 px-4 d-none" >
                             <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-dark">Заявка успешно отправлена!</span>
                         </div>
-                        <div class="send-error-message-1 p-4 d-none">
+                        <div class="send-error-message-1 px-4 d-none">
                             <i class="fas fa-exclamation-circle text-fut-bold text-dark" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
                         </div>
                     <form action="{{ route('message') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-1" name="name" placeholder="Введите имя*">
+                        <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-1" name="name" placeholder="Введите имя*">
                         </div>
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-1" name="phone" placeholder="Ведите телефон*">
+                        <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-1" name="phone" placeholder="Ведите телефон*">
                         </div>
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-1" name="email" placeholder="Введите E-mail*">
+                        <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-1" name="email" placeholder="Введите E-mail*">
                         </div>
                         <div class="form-group mt-5">
                             <a class="py-2 px-3 mt-3 text-fut-light" id="ajax-message-1" href="#"
