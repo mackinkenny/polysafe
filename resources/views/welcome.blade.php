@@ -99,11 +99,17 @@
                         Заполните заявку, чтобы
                         получить скидку 10%
                     </p>
+                        <div class="send-success-message-3 p-4 d-none" >
+                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-dark">Заявка успешно отправлена!</span>
+                        </div>
+                        <div class="send-error-message-3 p-4 d-none">
+                            <i class="fas fa-exclamation-circle text-fut-bold text-dark" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                        </div>
                     <form class="p-2" method="POST" enctype="multipart/form-data">
-                        <input class="w-100 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone" name="phone" placeholder="Ведите телефон*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="email" name="email" placeholder="Введите E-mail*">
-                        <input class="py-2 px-4 mt-3 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="отправить заявку">
+                        <input class="w-100 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-3" name="name" placeholder="Введите имя*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone-3" name="phone" placeholder="Ведите телефон*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="email-3" name="email" placeholder="Введите E-mail*">
+                        <button class="py-2 px-4 mt-3 text-fut-light" id="ajax-message-3" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">Отправить заявку</button>
                     </form>
                     </div>
                 </div>
@@ -280,14 +286,14 @@
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:10%; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:6vh; font-size: 16px; line-height: 21px;">
                     Стандартная высота решетки составляет 200 см
                 </p>
                 <div>
                     <label class="d-md-none d-block">
                         <div id="b6" class="butt"></div>
                     </label>
-                <p class="cent text-fut-light" style="padding-top:8%; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:8vh; font-size: 16px; line-height: 21px;">
                     Чтобы закрепить такую конструкцию потребуется
                     по 12 анкеров с каждой стороны. Для сравнения,
                     металлические решетки фиксируются с помощью
@@ -318,14 +324,14 @@
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:14%; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:10vh; font-size: 16px; line-height: 21px;">
                     В качестве основы прозрачных решеток
                     на окна выступают пластиковые ламели.
                 </p>
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:9%; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:8vh; font-size: 16px; line-height: 21px;">
                     Для защиты металлических элементов от коррозии
                     используется покрытие в виде порошковой краски.
                     Производители предлагают широкий выбор расцветок.
@@ -333,7 +339,7 @@
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:8%; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:7vh; font-size: 16px; line-height: 21px;">
                     Крепления распологаются с шагом в 14см.
                 </p>
             </div>
@@ -403,23 +409,34 @@
                     Оставьте заявку, мы перезвоним и ответим
                     на все Ваши вопросы
                 </span>
+                <div class="send-success-message-2 p-4 d-none" >
+                    <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-white">Отзыв успешно отправлен!</span>
+                </div>
+                <div class="send-error-message-2 p-4 d-none">
+                    <i class="fas fa-exclamation-circle text-fut-bold text-white" style="color:#d90002;"></i><span class="pl-2 text-fut-bold text-white">Отзыв не был отправлен!</span>
+                </div>
             </div>
         </div>
         <form class="pb-4"  method="POST" enctype="multipart/form-data">
+            @csrf
             <div class="row mt-5">
                     <div class="col-md-3 col-12">
-                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
+                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-2" name="name" placeholder="Введите имя*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
-                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="tel" name="tel" placeholder="Введите телефон*">
+                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-2" name="phone" placeholder="Введите телефон*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
-                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email" name="email" placeholder="Введите E-mail*">
+                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-2" name="email" placeholder="Введите E-mail*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3 cent">
-                        <button class="py-3 text-fut-light" type="submit" style="padding-left:20%; padding-right:20%; color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                        <button class="py-3 text-fut-light" id="ajax-message-2" style="padding-left:20%; padding-right:20%; color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                             Отправить
                         </button>
+                        {{--<a class="col-md-3 col-12 pt-md-0 pt-3 cent" id="ajax-message-2" href="#"--}}
+                           {{--style="padding-left:20%; padding-right:20%; color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">--}}
+                            {{--Отправить--}}
+                        {{--</a>--}}
                     </div>
             </div>
         </form>
@@ -472,7 +489,7 @@
             <p class="font-weight-bold text-fut-light" style="font-size: 16px; line-height: 120%;">
                 Защитите своих малышей от выпадения из окна.
             </p>
-            <button data-toggle="modal" data-target="#priceModal" class="py-2 px-3 mt-5" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+            <button data-toggle="modal" data-target="#priceModal" class="py-2 px-3 mt-5 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
                 Рассчитать стоимость
             </button>
         </div>
@@ -503,7 +520,7 @@
                 безопасность своих
                 домочадцев
             </h2>
-            <button data-toggle="modal" data-target="#feedbackModal" class="py-2 px-3 mt-5 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+            <button data-toggle="modal" data-target="#feedbackModal" class="py-2 px-3 mt-5 text-fut-light rounded-pill shadow-polysafe text-white border-0 bg-polysafe">
                 Оставить отзыв
             </button>
         </div>
@@ -895,18 +912,29 @@
                         Заполните заявку, чтобы
                         получить скидку 10%
                     </h2>
+
+                        <div class="send-success-message-1 p-4 d-none" >
+                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-dark">Заявка успешно отправлена!</span>
+                        </div>
+                        <div class="send-error-message-1 p-4 d-none">
+                            <i class="fas fa-exclamation-circle text-fut-bold text-dark" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                        </div>
                     <form action="{{ route('message') }}" method="POST" enctype="multipart/form-data">
+                        @csrf
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name" name="name" placeholder="Введите имя*">
+                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-1" name="name" placeholder="Введите имя*">
                         </div>
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone" name="phone" placeholder="Ведите телефон*">
+                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-1" name="phone" placeholder="Ведите телефон*">
                         </div>
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email" name="email" placeholder="Введите E-mail*">
+                        <input class="col-md-8 col-12 mt-3 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-1" name="email" placeholder="Введите E-mail*">
                         </div>
-                        <div class="form-group">
-                        <input class="py-2 px-4 mt-3 text-fut-light" type="submit" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;" value="отправить заявку">
+                        <div class="form-group mt-5">
+                            <a class="py-2 px-3 mt-3 text-fut-light" id="ajax-message-1" href="#"
+                               style="color: white;background:#00D9C0; border:0px;   box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                                Отправить заявку
+                            </a>
                         </div>
                     </form>
                     </div>
@@ -937,34 +965,34 @@
                     <h2 class="mb-3" style="font-size: 25px; line-height: 120%; color: white;">
                         Рассчитайте стоимость бесплатно
                     </h2>
-                    <div class="send-success p-4 d-none">
-                        <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2">Заявка успешно отправленна!</span>
+                    <div class="send-success-mail p-4 d-none" >
+                        <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-white">Заявка успешно отправлена!</span>
                     </div>
-                    <div class="send-error p-4 d-none">
-                        <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                    <div class="send-error-mail p-4 d-none">
+                        <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2 text-fut-bold text-white">Заявка не была отправлена!</span>
                     </div>
                     <form action="{{ route('mail') }}" method="POST" enctype="multipart/form-data">
                             @csrf
                         <div class="form-group">
-                            <input class="w-100 mb-2 p-2" name="width" type="text" placeholder="Ширина окна">
+                            <input class="w-100 mb-2 p-2" name="width" type="text" id="width-mail" placeholder="Ширина окна (см)">
                         </div>
                         <div class="form-group">
-                            <input class="w-100 mb-2 p-2" name="height" type="text" placeholder="Высота окна">
+                            <input class="w-100 mb-2 p-2" name="height" type="text" id="height-mail" placeholder="Высота окна (см)">
                         </div>
                         <div class="form-group">
-                            <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Введите имя*" required>
+                            <input class="w-100 mb-2 p-2" name="name" type="text" id="name-mail" placeholder="Введите имя*" required>
                         </div>
                         <div class="form-group">
-                            <input class="w-100 mb-2 p-2" name="phone" type="tel" placeholder="Введите телефон*" required>
+                            <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-mail" placeholder="Введите телефон*" required>
                         </div>
                         <div class="from-group">
-                            <input class="w-100 mb-2 p-2" name="email" type="email" placeholder="Введите E-mail*" required>
+                            <input class="w-100 mb-2 p-2" name="email" type="email" id="email-mail" placeholder="Введите E-mail*" required>
                         </div>
-                        <div class="form-group">
-                            <button class="py-2 px-3 mt-3" type="submit"
-                                    style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
-                                рассчитать стоимость
-                            </button>
+                        <div class="form-group mt-3">
+                            <a class="py-2 px-3 mt-3" id="ajax-mail" href="#"
+                               style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                                Рассчитать стоимость
+                            </a>
                         </div>
                     </form>
 
@@ -977,7 +1005,7 @@
     <div class="modal fade" id="feedbackModal" tabindex="15" role="form"
          aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <div class="modal-content" style="background: linear-gradient(158.72deg, #00D9C0 8.63%, #42559B 96.78%);">
+            <div class="modal-content feedback-content" style="background: linear-gradient(158.72deg, #00D9C0 8.63%, #42559B 96.78%);">
                 {{--<div class="modal-header">--}}
                 {{--<h5 class="modal-title text-secondary" id="exampleModalLabel"></h5>--}}
                 {{----}}
@@ -990,32 +1018,32 @@
                         <h2 class="mb-3" style="font-size: 25px; line-height: 120%; color: white;">
                             Оставьте нам свой отзыв
                         </h2>
-                        <div class="send-success p-4 d-none">
-                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2">Заявка успешно отправленна!</span>
+                        <div class="send-success-feedback p-4 d-none" >
+                            <i class="fas fa-check-circle" style="color:#00D9C0;"></i><span class="pl-2 text-fut-bold text-white">Отзыв успешно отправлен!</span>
                         </div>
-                        <div class="send-error p-4 d-none">
-                            <i class="fas fa-exclamation-circle" style="color:#d90002;"></i><span class="pl-2">Заявка не была отправлена!</span>
+                        <div class="send-error-feedback p-4 d-none">
+                            <i class="fas fa-exclamation-circle text-fut-bold text-white" style="color:#d90002;"></i><span class="pl-2">Отзыв не был отправлен!</span>
                         </div>
-                        <form action="{{ route('feedback') }}" method="POST" enctype="multipart/form-data">
+                        <form action="{{ route('feedback') }}" method="POST" enctype="multipart/form-data" id="form-feedback">
                             @csrf
                             <div class="form-group">
-                                <input class="w-100 mb-2 p-2" name="name" type="text" placeholder="Ваше имя*" required>
+                                <input class="w-100 mb-2 p-2" name="name" type="text" id="name-feedback" placeholder="Ваше имя*" required>
                             </div>
                             <div class="form-group">
-                                <input class="w-100 mb-2 p-2" name="phone" type="tel" placeholder="Ваша телефон*" required>
+                                <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-feedback" placeholder="Ваша телефон*" required>
                             </div>
                             <div class="form-group">
-                                <input class="w-100 mb-2 p-2" name="email" type="email" placeholder="Введите E-mail*" required>
+                                <input class="w-100 mb-2 p-2" name="email" type="email" id="email-feedback" placeholder="Введите E-mail*" required>
                             </div>
                             <div class="form-group">
-                                <textarea class="w-100 mb-2 p-2" name="message" type="message" placeholder="Сообщение*" required></textarea>
+                                <textarea class="w-100 mb-2 p-2" name="message" type="message" id="message-feedback" placeholder="Сообщение*" required></textarea>
                             </div>
                             <div class="form-group">
-                                <button class="py-2 px-3 mt-3" type="submit"
-                                        style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
-                                    рассчитать стоимость
-                                </button>
-                            </div>
+                                <a class="py-2 px-3 mt-3" id="ajax-feedback" href="#"
+                                             style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">
+                                Отправить
+                            </a>
+                    </div>
                         </form>
 
                     </div>
@@ -1024,21 +1052,155 @@
         </div>
     </div>
 
-<div type="button" class="callback-bt d-md-block d-none">
-    <a href="tel: +996554803838">
-    <div class="text-call">
-        <i class="fa fa-phone"></i>
-    </div>
+    <a class="call-a d-md-block d-none" href="tel: +996554803838">
+        <i class="call-ic fa fa-phone fa-2x"></i>
     </a>
-</div>
-<div type="button" class="email-bt d-md-block d-none rounded" style="border-radius:30px!important;">
-    <a href="https://api.whatsapp.com/send?phone=996554803838">
-    <div class="text-call" style="border-radius:30px!important;">
-        <i class="fab fa-whatsapp" aria-hidden="true"></i>
-    </div>
+    <a class="wa-a d-md-block d-none" href="https://api.whatsapp.com/send?phone=996554803838">
+        <i class="wa-ic fab fa-whatsapp fa-2x"></i>
     </a>
-</div>
-@push('scripts')
+
+
+    @push('scripts')
+    <script>
+        $('#ajax-feedback').click(e => {
+            e.preventDefault();
+            let btn = $(e.currentTarget);
+            let name = $('#name-feedback');
+            let phone = $('#phone-feedback');
+            let email = $('#email-feedback');
+            let message = $('#message-feedback');
+
+            $.ajax({
+                url: '{{ route('feedback') }}',
+                method: 'POST',
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "name": name.val(),
+                    "phone": phone.val(),
+                    "email": email.val(),
+                    "message": message.val()
+                },
+                success: data => {
+                    $(".send-success-feedback").removeClass('d-none');
+                },
+                error: () => {
+                    $(".send-error-feedback").removeClass('d-none');
+                }
+            })
+        })
+    </script>
+    <script>
+        $('#ajax-mail').click(e => {
+            e.preventDefault();
+            let btn = $(e.currentTarget);
+            let width = $('#width-mail');
+            let height = $('#height-mail');
+            let name = $('#name-mail');
+            let phone = $('#phone-mail');
+            let email = $('#email-mail');
+
+            $.ajax({
+                url: '{{ route('mail') }}',
+                method: 'POST',
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "name": name.val(),
+                    "phone": phone.val(),
+                    "email": email.val(),
+                    "width": width.val(),
+                    "height": height.val()
+                },
+                success: data => {
+                    $(".send-success-mail").removeClass('d-none');
+                },
+                error: () => {
+                    $(".send-error-mail").removeClass('d-none');
+                }
+            })
+        })
+    </script>
+    <script>
+        $('#ajax-message-1').click(e => {
+            e.preventDefault();
+            let btn = $(e.currentTarget);
+            let name = $('#name-1');
+            let phone = $('#phone-1');
+            let email = $('#email-1');
+
+            $.ajax({
+                url: '{{ route('message') }}',
+                method: 'POST',
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "name": name.val(),
+                    "phone": phone.val(),
+                    "email": email.val()
+                },
+                success: data => {
+                    $(".send-success-message-1").removeClass('d-none');
+                },
+                error: () => {
+                    $(".send-error-message-1").removeClass('d-none');
+                }
+            });
+
+
+        })
+    </script>
+    <script>
+        $('#ajax-message-2').click(e => {
+            e.preventDefault();
+            let btn = $(e.currentTarget);
+            let name = $('#name-2');
+            let phone = $('#phone-2');
+            let email = $('#email-2');
+
+            $.ajax({
+                url: '{{ route('message') }}',
+                method: 'POST',
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "name": name.val(),
+                    "phone": phone.val(),
+                    "email": email.val()
+                },
+                success: data => {
+                    $(".send-success-message-2").removeClass('d-none');
+                },
+                error: () => {
+                    $(".send-error-message-2").removeClass('d-none');
+                }
+            });
+
+        })
+    </script>
+    <script>
+        $('#ajax-message-3').click(e => {
+            e.preventDefault();
+            let btn = $(e.currentTarget);
+            let name = $('#name-3');
+            let phone = $('#phone-3');
+            let email = $('#email-3');
+
+            $.ajax({
+                url: '{{ route('message') }}',
+                method: 'POST',
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    "name": name.val(),
+                    "phone": phone.val(),
+                    "email": email.val()
+                },
+                success: data => {
+                    $(".send-success-message-3").removeClass('d-none');
+                },
+                error: () => {
+                    $(".send-error-message-3").removeClass('d-none');
+                }
+            });
+
+        })
+    </script>
 @endpush
 @endsection
 

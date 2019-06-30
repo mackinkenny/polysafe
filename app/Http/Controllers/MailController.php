@@ -13,6 +13,10 @@ class MailController extends Controller
     {
         \Mail::to('mackinkenny@gmail.com')->send(new Send($request->all()));
 
+        if ($request->ajax()){
+            return response()->json("success");
+        }
+
         return back();
     }
 
@@ -20,12 +24,19 @@ class MailController extends Controller
     {
         \Mail::to('mackinkenny@gmail.com')->send(new Feedback($request->all()));
 
+        if($request->ajax()){
+            return response()->json("success");
+        }
         return back();
     }
 
     public function message(Request $request)
     {
         \Mail::to('mackinkenny@gmail.com')->send(new Bid($request->all()));
+
+        if ($request->ajax()){
+            return response()->json("success");
+        }
 
         return back();
     }

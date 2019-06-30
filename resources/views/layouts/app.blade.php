@@ -11,9 +11,9 @@
     <link rel="shortcut icon" href="/images/logo.png" type="image/png">
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <!-- Fonts --><script src="{{asset('js/jquery-3.4.1.min.js')}}" type="text/javascript"></script>
+    {{--<!-- Fonts --><script src="{{asset('js/jquery-3.4.1.min.js')}}" type="text/javascript"></script>--}}
     {{--<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="http://fonts.googleapis.com/css?family=Futura PTt&amp;ver=1559628150" type="text/css" media="all">--}}
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -22,12 +22,12 @@
     {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>--}}
     {{--<link rel="stylesheet" id="redux-google-fonts-salient_redux-css" href="http://fonts.googleapis.com/css?family=Montserrat&amp;ver=1559628150" type="text/css" media="all">--}}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>--}}
     {{--<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>--}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    {{--<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>--}}
+    {{--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>--}}
+
 
     <!-- Styles -->
 
@@ -43,6 +43,8 @@
         @yield('content')
     </main>
 </div>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
 <script>
     $(document).ready(function() {
