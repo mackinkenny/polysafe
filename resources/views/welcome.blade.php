@@ -331,7 +331,7 @@
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:8vh; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:6vh; font-size: 16px; line-height: 21px;">
                     Для защиты металлических элементов от коррозии
                     используется покрытие в виде порошковой краски.
                     Производители предлагают широкий выбор расцветок.
@@ -339,7 +339,7 @@
                 <label class="d-md-none d-block">
                     <div id="b6" class="butt"></div>
                 </label>
-                <p class="cent text-fut-light" style="padding-top:7vh; font-size: 16px; line-height: 21px;">
+                <p class="cent text-fut-light" style="padding-top:5vh; font-size: 16px; line-height: 21px;">
                     Крепления распологаются с шагом в 14см.
                 </p>
             </div>
