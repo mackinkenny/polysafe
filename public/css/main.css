@@ -127,6 +127,7 @@ body{
     transition:.3s;
     -webkit-animation:hoverWave linear 1s infinite;
     animation:hoverWave linear 1s infinite;
+    z-index: 10000;
 }
 .call-ic {
     color:white;
@@ -297,6 +298,7 @@ body{
     transition:.3s;
     -webkit-animation:email-an linear 1s infinite;
     animation:email-an linear 1s infinite;
+    z-index: 10000;
 }
 .wa-ic {
     color:white;

@@ -38,7 +38,8 @@
         </div>
             <div class="col-1"></div>
             <div class="col-md-6 col-12 text-right d-md-block d-none" style="padding-top:15%;">
-                <a href="{{URL::asset("/images/Polysafe.mp4")}}" style="text-decoration: none;">
+
+                <a data-fancybox="gallery2" href="{{ asset('images/Polysafe.mp4') }}" style="text-decoration: none;">
                 <i class="far fa-play-circle fa-10x text-secondary ica"></i>
                 <br>
                 <p class="pr-4 pt-2 text-secondary text-fut-bold">Смотреть видео</p>
@@ -1075,6 +1076,7 @@
             </div>
         </div>
     </div>
+    
 
     <a class="call-a d-md-block d-none" href="tel: +996554803838">
         <i class="call-ic fa fa-phone fa-2x"></i>
