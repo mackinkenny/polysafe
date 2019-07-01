@@ -11,7 +11,7 @@ class MailController extends Controller
 {
     public function mail(Request $request)
     {
-        \Mail::to('mackinkenny@gmail.com')->send(new Send($request->all()));
+        \Mail::to('askar@sa.kg')->send(new Send($request->all()));
 
         if ($request->ajax()){
             return response()->json("success");
@@ -22,7 +22,7 @@ class MailController extends Controller
 
     public function feedback(Request $request)
     {
-        \Mail::to('mackinkenny@gmail.com')->send(new Feedback($request->all()));
+        \Mail::to('askar@sa.kg')->send(new Feedback($request->all()));
 
         if($request->ajax()){
             return response()->json("success");
@@ -32,7 +32,7 @@ class MailController extends Controller
 
     public function message(Request $request)
     {
-        \Mail::to('mackinkenny@gmail.com')->send(new Bid($request->all()));
+        \Mail::to('askar@sa.kg')->send(new Bid($request->all()));
 
         if ($request->ajax()){
             return response()->json("success");

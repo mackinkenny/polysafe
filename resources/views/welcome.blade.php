@@ -1077,14 +1077,12 @@
         </div>
     </div>
 
-
-    <a class="call-a d-md-block d-none" href="tel: +996554803838">
+    <a class="call-a d-md-block d-none" href="tel: +996557088444">
         <i class="call-ic fa fa-phone fa-2x"></i>
     </a>
-    <a class="wa-a d-md-block d-none" href="https://api.whatsapp.com/send?phone=996554803838">
+    <a class="wa-a d-md-block d-none" href="https://api.whatsapp.com/send?phone=996557088444">
         <i class="wa-ic fab fa-whatsapp fa-2x"></i>
     </a>
-
 
     @push('scripts')
     <script>
