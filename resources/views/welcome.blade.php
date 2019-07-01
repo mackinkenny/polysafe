@@ -1008,7 +1008,7 @@
                             <input class="w-100 mb-2 p-2" name="name" type="text" id="name-mail" placeholder="Введите имя*" required>
                         </div>
                         <div class="form-group">
-                            <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-mail" placeholder="Введите телефон*" required>
+                            <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-mail" placeholder="Введите номер телефона*" required>
                         </div>
                         <div class="from-group">
                             <input class="w-100 mb-2 p-2" name="email" type="email" id="email-mail" placeholder="Введите E-mail*" required>
@@ -1055,7 +1055,7 @@
                                 <input class="w-100 mb-2 p-2" name="name" type="text" id="name-feedback" placeholder="Ваше имя*" required>
                             </div>
                             <div class="form-group">
-                                <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-feedback" placeholder="Ваш номер телефон*" required>
+                                <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-feedback" placeholder="Ваш номер телефона*" required>
                             </div>
                             <div class="form-group">
                                 <input class="w-100 mb-2 p-2" name="email" type="email" id="email-feedback" placeholder="Введите E-mail*" required>
