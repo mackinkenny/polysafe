@@ -603,7 +603,7 @@
                         <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner" style="height:45vh!important;">
+                    <div class="carousel-inner" style="height:400px!important;">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center pr-0 mr-0">
                                 <div class="col-md-12 m-2 col-12 p-4 text-fut-light shadow" style="font-size: 16px;">
@@ -821,7 +821,7 @@
                 <li data-target="#carouselgallery-mob" data-slide-to="1"></li>
                 <li data-target="#carouselgallery-mob" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" style="width:80vw!important; height: 45vh!important;">
+            <div class="carousel-inner" style="width:80vw!important; height: 400px!important;">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery1.png') }}">

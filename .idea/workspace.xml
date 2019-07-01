@@ -20,15 +20,18 @@
       <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="704" column="68" lean-forward="true" selection-start-line="704" selection-start-column="68" selection-end-line="704" selection-end-column="68" />
+            <state relative-caret-position="428">
+              <caret line="829" column="26" lean-forward="true" selection-start-line="829" selection-start-column="26" selection-end-line="829" selection-end-column="26" />
               <folding>
                 <element signature="e#33954#33980#0#HTML" expanded="true" />
                 <element signature="e#35219#35249#0#HTML" expanded="true" />
                 <element signature="e#40509#40539#0#HTML" expanded="true" />
                 <element signature="e#43712#43728#0#HTML" expanded="true" />
                 <element signature="e#46013#46067#0#HTML" expanded="true" />
+                <element signature="e#53633#53661#0#HTML" expanded="true" />
+                <element signature="e#53896#53925#0#HTML" expanded="true" />
                 <element signature="e#54182#54218#0#HTML" expanded="true" />
+                <element signature="e#54777#54830#0#HTML" expanded="true" />
                 <element signature="e#62526#62533#1#HTML" expanded="true" />
                 <element signature="e#65736#65743#1#HTML" expanded="true" />
               </folding>
@@ -425,12 +428,12 @@
       <workItem from="1561848935039" duration="5339000" />
       <workItem from="1561918714423" duration="9186000" />
       <workItem from="1561929398786" duration="449000" />
-      <workItem from="1561960871502" duration="4969000" />
+      <workItem from="1561960871502" duration="5245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143829000" />
+    <option name="totallyTimeSpent" value="144105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -576,7 +579,10 @@
             <element signature="e#40509#40539#0#HTML" expanded="true" />
             <element signature="e#43712#43728#0#HTML" expanded="true" />
             <element signature="e#46013#46067#0#HTML" expanded="true" />
+            <element signature="e#53633#53661#0#HTML" expanded="true" />
+            <element signature="e#53896#53925#0#HTML" expanded="true" />
             <element signature="e#54182#54218#0#HTML" expanded="true" />
+            <element signature="e#54777#54830#0#HTML" expanded="true" />
             <element signature="e#62526#62533#1#HTML" expanded="true" />
             <element signature="e#65736#65743#1#HTML" expanded="true" />
           </folding>
@@ -629,7 +635,10 @@
             <element signature="e#40509#40539#0#HTML" expanded="true" />
             <element signature="e#43712#43728#0#HTML" expanded="true" />
             <element signature="e#46013#46067#0#HTML" expanded="true" />
+            <element signature="e#53633#53661#0#HTML" expanded="true" />
+            <element signature="e#53896#53925#0#HTML" expanded="true" />
             <element signature="e#54182#54218#0#HTML" expanded="true" />
+            <element signature="e#54777#54830#0#HTML" expanded="true" />
             <element signature="e#62526#62533#1#HTML" expanded="true" />
             <element signature="e#65736#65743#1#HTML" expanded="true" />
           </folding>
@@ -681,7 +690,10 @@
             <element signature="e#40509#40539#0#HTML" expanded="true" />
             <element signature="e#43712#43728#0#HTML" expanded="true" />
             <element signature="e#46013#46067#0#HTML" expanded="true" />
+            <element signature="e#53633#53661#0#HTML" expanded="true" />
+            <element signature="e#53896#53925#0#HTML" expanded="true" />
             <element signature="e#54182#54218#0#HTML" expanded="true" />
+            <element signature="e#54777#54830#0#HTML" expanded="true" />
             <element signature="e#62526#62533#1#HTML" expanded="true" />
             <element signature="e#65736#65743#1#HTML" expanded="true" />
           </folding>
@@ -814,15 +826,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="704" column="68" lean-forward="true" selection-start-line="704" selection-start-column="68" selection-end-line="704" selection-end-column="68" />
+        <state relative-caret-position="428">
+          <caret line="829" column="26" lean-forward="true" selection-start-line="829" selection-start-column="26" selection-end-line="829" selection-end-column="26" />
           <folding>
             <element signature="e#33954#33980#0#HTML" expanded="true" />
             <element signature="e#35219#35249#0#HTML" expanded="true" />
             <element signature="e#40509#40539#0#HTML" expanded="true" />
             <element signature="e#43712#43728#0#HTML" expanded="true" />
             <element signature="e#46013#46067#0#HTML" expanded="true" />
+            <element signature="e#53633#53661#0#HTML" expanded="true" />
+            <element signature="e#53896#53925#0#HTML" expanded="true" />
             <element signature="e#54182#54218#0#HTML" expanded="true" />
+            <element signature="e#54777#54830#0#HTML" expanded="true" />
             <element signature="e#62526#62533#1#HTML" expanded="true" />
             <element signature="e#65736#65743#1#HTML" expanded="true" />
           </folding>
