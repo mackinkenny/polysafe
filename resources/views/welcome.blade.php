@@ -108,7 +108,7 @@
                         </div>
                     <form class="p-2" method="POST" enctype="multipart/form-data">
                         <input class="w-100 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-3" name="name" placeholder="Введите имя*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone-3" name="phone" placeholder="Введите номер телефон*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone-3" name="phone" placeholder="Введите номер телефона*">
                         <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="email-3" name="email" placeholder="Введите E-mail*">
                         <button class="py-2 px-4 mt-3 text-fut-light" id="ajax-message-3" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">Отправить заявку</button>
                     </form>
@@ -425,7 +425,7 @@
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-2" name="name" placeholder="Введите имя*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
-                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-2" name="phone" placeholder="Введите номер телефон*">
+                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-2" name="phone" placeholder="Введите номер телефона*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-2" name="email" placeholder="Введите E-mail*">
@@ -950,7 +950,7 @@
                         <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-1" name="name" placeholder="Введите имя*">
                         </div>
                         <div class="form-group">
-                        <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-1" name="phone" placeholder="Ведите телефон*">
+                        <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-1" name="phone" placeholder="Введите номер телефона*">
                         </div>
                         <div class="form-group">
                         <input class="col-md-8 col-12 mt-0 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-1" name="email" placeholder="Введите E-mail*">
@@ -1076,7 +1076,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <a class="call-a d-md-block d-none" href="tel: +996554803838">
         <i class="call-ic fa fa-phone fa-2x"></i>
