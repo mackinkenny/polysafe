@@ -64,7 +64,7 @@
                 <div class="row pt-md-5 pt-0">
                     <div class="col-md-4 col-12 pb-md-0 pb-4">
                         <img src="{{asset('images/a1.png')}}" alt="">
-                        <div class="pt-2 text-fut-light"><span style="line-height: 120%;">Конструкции могут выдерживать высокие весовые нагрузки (до 500кг).</span></div>
+                        <div class="pt-2 text-fut-light"><span style="line-height: 120%;">Конструкции могут выдерживать высокие весовые нагрузки (до 500кг)</span></div>
                     </div>
                     <div class="col-md-4 col-12 pb-md-0 pb-4">
                         <img src="{{asset('images/a2.png')}}" alt="">
@@ -107,7 +107,7 @@
                         </div>
                     <form class="p-2" method="POST" enctype="multipart/form-data">
                         <input class="w-100 p-2 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-3" name="name" placeholder="Введите имя*">
-                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone-3" name="phone" placeholder="Ведите телефон*">
+                        <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="phone-3" name="phone" placeholder="Введите номер телефон*">
                         <input class="w-100 p-2 mt-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="email-3" name="email" placeholder="Введите E-mail*">
                         <button class="py-2 px-4 mt-3 text-fut-light" id="ajax-message-3" style="color: white;background:#00D9C0; border:0px; box-shadow: 0px 4px 50px rgba(19, 202, 225, 0.4); border-radius: 25px;">Отправить заявку</button>
                     </form>
@@ -287,7 +287,7 @@
                     <div id="b6" class="butt"></div>
                 </label>
                 <p class="cent text-fut-light" style="padding-top:6vh; font-size: 16px; line-height: 21px;">
-                    Стандартная высота решетки составляет 200 см
+                    Стандартная высота решетки составляет 200 см.
                 </p>
                 <div>
                     <label class="d-md-none d-block">
@@ -424,7 +424,7 @@
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="text" id="name-2" name="name" placeholder="Введите имя*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
-                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-2" name="phone" placeholder="Введите телефон*">
+                        <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="tel" id="phone-2" name="phone" placeholder="Введите номер телефон*">
                     </div>
                     <div class="col-md-3 col-12 pt-md-0 pt-3">
                         <input class="w-100 p-3 border-0" style="font-family: 'Futura PT light'; box-shadow: inset 0.1px 0.1px 8px -3px rgba(0,0,0,1);" type="email" id="email-2" name="email" placeholder="Введите E-mail*">
@@ -453,7 +453,7 @@
                 </h2>
                 <p class="pt-4 text-fut-light" style="font-size: 16px; line-height: 120%;">
                     В Кыргызстане в среднем каждые 4 минуты совершается взлом. В прошлом
-                    году количество таких преступлений возросло более чем на 8%
+                    году количество таких преступлений возросло более чем на 8%.
                 </p>
                 <p class="text-fut-light" style="font-size: 16px; line-height: 120%;">
                     Преступников, которых милиции удается поймать, весьма мало. Причину
@@ -512,7 +512,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid" id="feedback" style="padding-bottom: 10%">
+<div class="container-fluid" id="feedback" style="padding-bottom: 3%">
     <div class="row">
         <div class="col-md-4 col-12" style="padding-left:8%;">
             <h2 class="font-weight-bold pl-3 text-media text-fut-bold" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
@@ -532,7 +532,7 @@
                         <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
                         {{--<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>--}}
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="height:95vh!important;">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center">
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
@@ -928,7 +928,7 @@
                 <p class="mb-0 text-fut-light">E-mail:</p>
                 <p><a href="mailto:askar@sa.kg" class="font-weight-bold text-fut-bold" style="color:black;">askar@sa.kg</a></p>
                 <p class="mb-0 text-fut-light">Адрес:</p>
-                <p><a href="https://2gis.kg/bishkek/firm/70000001019370919?queryState=center%2F74.615386%2C42.870138%2Fzoom%2F18" style="color:black;" class="font-weight-bold text-fut-bold">г. Бишкек, ТЦ "Мегакомфорт"</a></p>
+                <p><a href="https://2gis.kg/bishkek/firm/70000001019370919?queryState=center%2F74.615386%2C42.870138%2Fzoom%2F18" style="color:black;" class="font-weight-bold text-fut-bold">г. Бишкек, ул. Шопокова 89, ТЦ "Мега Комфорт"</a></p>
             </div>
                 <div class="col-md-6 col-12 px-md-5 px-0 pt-md-0 pt-5">
                     <div class="text-center">
@@ -1054,7 +1054,7 @@
                                 <input class="w-100 mb-2 p-2" name="name" type="text" id="name-feedback" placeholder="Ваше имя*" required>
                             </div>
                             <div class="form-group">
-                                <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-feedback" placeholder="Ваша телефон*" required>
+                                <input class="w-100 mb-2 p-2" name="phone" type="tel" id="phone-feedback" placeholder="Ваш номер телефон*" required>
                             </div>
                             <div class="form-group">
                                 <input class="w-100 mb-2 p-2" name="email" type="email" id="email-feedback" placeholder="Введите E-mail*" required>
