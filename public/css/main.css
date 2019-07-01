@@ -130,6 +130,10 @@ body{
 }
 .call-ic {
     color:white;
+    animation: 1200ms ease 0s normal none 1 running shake;
+    animation-iteration-count: infinite;
+    -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+    -webkit-animation-iteration-count: infinite;
 }
 @-webkit-keyframes hoverWave {
     0% {
@@ -296,6 +300,10 @@ body{
 }
 .wa-ic {
     color:white;
+    animation: 1200ms ease 0s normal none 1 running shake;
+    animation-iteration-count: infinite;
+    -webkit-animation: 1200ms ease 0s normal none 1 running shake;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes email-an {
