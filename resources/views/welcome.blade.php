@@ -597,11 +597,11 @@
                     </a>
                 </div>
                 </div>
-                <div id="carouselExampleIndicators2" class="carousel slide d-md-none d-block" data-ride="carousel">
+                <div id="carouselExampleIndicators3" class="carousel slide d-md-none d-block pr-0" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -650,11 +650,11 @@
                             </div>
                         </div>
                     </div>
-                    <a style="left:-5%;" class="carousel-control-prev d-none" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <a style="left:-3%" class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                         <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a style="right:-1%;" class="carousel-control-next d-none" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <a  class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                         <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
                         <span class="sr-only">Next</span>
                     </a>
