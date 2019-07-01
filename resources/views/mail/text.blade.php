@@ -14,8 +14,8 @@
     <strong class="text-fut-bold">Имя:</strong> {{ $formData['name'] }}<br>
     <strong class="text-fut-bold">E-mail:</strong> {{ $formData['email'] }}<br>
     <strong class="text-fut-bold">Телефон:</strong> {{ $formData['phone'] }}<br>
-    <strong class="text-fut-bold">Ширина окна:</strong> {{ $formData['width'] }}<br>
-    <strong class="text-fut-bold">Высота окна:</strong> {{ $formData['height'] }}<br>
+    <strong class="text-fut-bold">Ширина окна:</strong> {{ $formData['width'] }} см<br>
+    <strong class="text-fut-bold">Высота окна:</strong> {{ $formData['height'] }} см<br>
 
     <br>
     </div>

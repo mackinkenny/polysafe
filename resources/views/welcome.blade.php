@@ -683,16 +683,16 @@
     </div>
 </div>
 <div id="galler" class="container mb-5 mt-md-0 mt-4" style="padding-top: 5%;">
-    <h2 class="font-weight-bold pl-3 col-3 text-fut-bold" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
+    <h2 class="font-weight-bold pl-3 col-3 text-fut-bold mb-5" style="font-size: 36px; line-height: 120%; border-left:3px #00D9C0 solid;">
         Галерея
         наших окон
     </h2>
     <div class="container-fluid row justify-content-center">
-        <div id="carouselExampleIndicators" class="carousel slide d-md-block d-none" data-ride="carousel">
+        <div id="carouselgallery" class="carousel slide d-md-block d-none" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselgallery" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselgallery" data-slide-to="1"></li>
+                <li data-target="#carouselgallery" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -804,51 +804,75 @@
                     </div>
                 </div>
             </div>
-            <a style="left:-20%!important;" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a style="left:-20%!important;" class="carousel-control-prev" href="#carouselgallery" role="button" data-slide="prev">
                 <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
                 <span class="sr-only">Previous</span>
             </a>
-            <a style="right:-20%!important;" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a style="right:-20%!important;" class="carousel-control-next" href="#carouselgallery" role="button" data-slide="next">
                 <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
                 <span class="sr-only">Next</span>
             </a>
         </div>
 </div>
-    <div class="container-fluid row justify-content-center">
-        <div id="carouselExampleIndicators" class="carousel slide d-md-none d-block" data-ride="carousel">
+    <div class="container-fluid row justify-content-center pr-0" style="margin-right: 0px!important;">
+        <div id="carouselgallery-mob" class="carousel slide d-md-none d-block" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselgallery-mob" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselgallery-mob" data-slide-to="1"></li>
+                <li data-target="#carouselgallery-mob" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                                <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery1.png') }}">
+                        <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery2.png') }}">
                         <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery3.png') }}">
                         <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery4.png') }}">
                         <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery5.png') }}">
                         <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery6.png') }}">
                         <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
-
+            <a  class="carousel-control-prev" href="#carouselgallery-mob" role="button" data-slide="prev">
+                <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselgallery-mob" role="button" data-slide="next">
+                <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </div>
 </div>
