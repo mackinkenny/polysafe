@@ -532,7 +532,7 @@
                         <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
                         {{--<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>--}}
                     </ol>
-                    <div class="carousel-inner" style="height:95vh!important;">
+                    <div class="carousel-inner" style="height:120%!important;">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center">
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
@@ -603,7 +603,7 @@
                         <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner" style="height:45vh!important;">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center pr-0 mr-0">
                                 <div class="col-md-12 m-2 col-12 p-4 text-fut-light shadow" style="font-size: 16px;">
@@ -694,7 +694,7 @@
                 <li data-target="#carouselgallery" data-slide-to="1"></li>
                 <li data-target="#carouselgallery" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner"  style="width:80vw!important; height: 120vh!important;">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery1.png') }}">
@@ -804,11 +804,11 @@
                     </div>
                 </div>
             </div>
-            <a style="left:-20%!important;" class="carousel-control-prev" href="#carouselgallery" role="button" data-slide="prev">
+            <a style="left:-8%!important;" class="carousel-control-prev" href="#carouselgallery" role="button" data-slide="prev">
                 <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
                 <span class="sr-only">Previous</span>
             </a>
-            <a style="right:-20%!important;" class="carousel-control-next" href="#carouselgallery" role="button" data-slide="next">
+            <a style="right:-8%!important;" class="carousel-control-next" href="#carouselgallery" role="button" data-slide="next">
                 <i class="fas fa-chevron-right" style="font-size:30px; color:black;"></i>
                 <span class="sr-only">Next</span>
             </a>
@@ -821,7 +821,7 @@
                 <li data-target="#carouselgallery-mob" data-slide-to="1"></li>
                 <li data-target="#carouselgallery-mob" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="width:80vw!important; height: 45vh!important;">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
                         <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery1.png') }}">
