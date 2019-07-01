@@ -533,7 +533,7 @@
                         <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
                         {{--<li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>--}}
                     </ol>
-                    <div class="carousel-inner" style="height:120%!important;">
+                    <div class="carousel-inner" style="height:80vh!important;">
                         <div class="carousel-item active">
                             <div class="row container justify-content-center">
                                 <div class="col-md-5 m-2 col-12 p-5 text-fut-light shadow" style="font-size: 16px;">
