@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+$url = Route::get('/', function () {
     return view('welcome');
 });
 
