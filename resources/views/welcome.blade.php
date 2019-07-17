@@ -130,7 +130,7 @@
         <div class="row pt-5 justify-content-end">
             <div class="col-md-9 col-12 position-absolute pl-media" style="z-index: 1; padding-left: 7%">
                 <div class="container-fluid">
-                <ul class="row nav nav-tabs" style="border:none!important;" id="myTab" role="tablist">
+                <ul class="row nav nav-tabs justify-content-center" style="border:none!important;" id="myTab" role="tablist">
                     <li class="nav-item col-md-3 col-6 picks">
                         <a class="nav-link p-md-3 text-center text-fut-light tabs-media active" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var1" role="tab" aria-controls="" aria-selected="true">горизонтальные</a>
                     </li>
@@ -140,9 +140,9 @@
                     <li class="nav-item col-md-3 col-6 picks">
                         <a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var3" role="tab" aria-controls="" aria-selected="true">со створками</a>
                     </li>
-                    <li class="nav-item col-md-3 col-6 picks">
-                        <a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">цветные</a>
-                    </li>
+                    {{--<li class="nav-item col-md-3 col-6 picks">--}}
+                        {{--<a class="nav-link p-md-3 text-center text-fut-light tabs-media" style="font-size:20px; border:none!important; color:white; background: #29374D; border-radius:0px!important;" data-toggle="tab" href="#var4" role="tab" aria-controls="" aria-selected="true">цветные</a>--}}
+                    {{--</li>--}}
                 </ul>
                 </div>
             </div>
@@ -154,6 +154,7 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4" style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Горизонтальные решетки</h3>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
                         <span class="text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Чаще всего владельцы квартир прибегают к монтажу
                             решеток на окна на первый этаж с горизонтальными
@@ -183,6 +184,8 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4"  style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Вертикальные решетки</h3>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
+
                                 <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Конструкции с вертикально расположенными ламелями используются в тех случаях, когда крайне важно сохранить архитектурный стиль здания. Кроме этого они применяются в качестве альтернативного решения, если установка креплений для горизонтальных элементов осложнена какими-либо условиями.
                         </span>
@@ -214,6 +217,8 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4" style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Решетки со створками</h3>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
+
                                 <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Помимо стандартных конструкций возможно заказать конструкции с открывающимися створками, которые имеют ушки, предназначенные для установки замков навесного типа.
                         </span>
@@ -238,37 +243,37 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="var4" role="tabpanel" aria-labelledby="">
-                        <div class="row">
-                            <div class="col-md-4 col-12 text-center">
-                                <img class="tab-img varss" src="{{ asset('images/uzor.png') }}" alt="">
-                            </div>
-                            <div class="col-md-4 col-12 pl-0 p-md-0 p-4"  style="margin-top: 8%">
-                                <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Цветные решетки</h3>
-                                <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
-                            Витраж – один из вариантов декоративного оформления поликарбоната с помощью рисунков. При условии правильного выбора техники и самого узора можно создать неповторимое и уникальное оформление.
-                        </span>
-                                <p class="pt-3">
-                                    <i class="fas fa-check-circle" style="color:#00D9C0;"></i>
-                                    <span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">
-                                       Краска обладает атмосфероустойчивым свойством
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="fas fa-check-circle" style="color:#00D9C0;"></i>
-                                    <span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">
-                                       Экологично и безопасно
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="fas fa-check-circle" style="color:#00D9C0;"></i>
-                                    <span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">
-                                        Выбор цветовой гаммы практически неограничен
-                                    </span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    {{--<div class="tab-pane fade" id="var4" role="tabpanel" aria-labelledby="">--}}
+                        {{--<div class="row">--}}
+                            {{--<div class="col-md-4 col-12 text-center">--}}
+                                {{--<img class="tab-img varss" src="{{ asset('images/uzor.png') }}" alt="">--}}
+                            {{--</div>--}}
+                            {{--<div class="col-md-4 col-12 pl-0 p-md-0 p-4"  style="margin-top: 8%">--}}
+                                {{--<h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Цветные решетки</h3>--}}
+                                {{--<span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">--}}
+                            {{--Витраж – один из вариантов декоративного оформления поликарбоната с помощью рисунков. При условии правильного выбора техники и самого узора можно создать неповторимое и уникальное оформление.--}}
+                        {{--</span>--}}
+                                {{--<p class="pt-3">--}}
+                                    {{--<i class="fas fa-check-circle" style="color:#00D9C0;"></i>--}}
+                                    {{--<span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">--}}
+                                       {{--Краска обладает атмосфероустойчивым свойством--}}
+                                    {{--</span>--}}
+                                {{--</p>--}}
+                                {{--<p>--}}
+                                    {{--<i class="fas fa-check-circle" style="color:#00D9C0;"></i>--}}
+                                    {{--<span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">--}}
+                                       {{--Экологично и безопасно--}}
+                                    {{--</span>--}}
+                                {{--</p>--}}
+                                {{--<p>--}}
+                                    {{--<i class="fas fa-check-circle" style="color:#00D9C0;"></i>--}}
+                                    {{--<span class="font-weight-bold pl-2 text-fut-light" style="font-size: 16px; line-height: 21px;">--}}
+                                        {{--Выбор цветовой гаммы практически неограничен--}}
+                                    {{--</span>--}}
+                                {{--</p>--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </div>
             </div>
             </div>
