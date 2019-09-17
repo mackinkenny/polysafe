@@ -154,7 +154,7 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4" style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Горизонтальные решетки</h3>
-                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца осени! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">3500 сом!!</span></p>
                         <span class="text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Чаще всего владельцы квартир прибегают к монтажу
                             решеток на окна на первый этаж с горизонтальными
@@ -184,7 +184,7 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4"  style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Вертикальные решетки</h3>
-                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца осени! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">3500 сом!!</span></p>
 
                                 <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Конструкции с вертикально расположенными ламелями используются в тех случаях, когда крайне важно сохранить архитектурный стиль здания. Кроме этого они применяются в качестве альтернативного решения, если установка креплений для горизонтальных элементов осложнена какими-либо условиями.
@@ -217,7 +217,7 @@
                             </div>
                             <div class="col-md-4 col-12 pl-0 p-md-0 p-4" style="margin-top: 8%">
                                 <h3 class="font-weight-bold py-3 text-fut-bold" style="font-size: 25px; line-height: 120%;">Решетки со створками</h3>
-                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца лета! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">2500 сом!!</span></p>
+                                <p class="text-fut-bold font-weight-bold" style="color: red;">Скидка до конца осени! <span style="text-decoration: line-through; color: black;">4200</span> <span style="font-size:20px;">3500 сом!!</span></p>
 
                                 <span class="pb-3 text-fut-light" style="font-size: 16px; line-height: 120%;">
                             Помимо стандартных конструкций возможно заказать конструкции с открывающимися створками, которые имеют ушки, предназначенные для установки замков навесного типа.
