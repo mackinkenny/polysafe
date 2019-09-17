@@ -928,9 +928,9 @@
                     как можно быстрее
                 </p>
                 <p class="mb-0 text-fut-light">Телефон:</p>
-                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996554803838</a></p>
-                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996557088444</a></p>
-                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996703803838</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996553803838</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996705088444</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996557088444</a></p>
                 <p class="mb-0 text-fut-light">E-mail:</p>
                 <p><a href="mailto:askar@sa.kg" class="font-weight-bold text-fut-bold" style="color:black;">askar@sa.kg</a></p>
                 <p class="mb-0 text-fut-light">Адрес:</p>
