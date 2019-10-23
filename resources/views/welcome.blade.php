@@ -39,7 +39,7 @@
             <div class="col-1"></div>
             <div class="col-md-6 col-12 text-right d-md-block d-none" style="padding-top:15%;">
 
-                <a data-fancybox="gallery2" href="{{ asset('images/Polysafe.mp4') }}" style="text-decoration: none;">
+                <a data-fancybox="gallery2" href="https://www.youtube.com/watch?v=KZsMTLbv1Ks&feature=youtu.be" style="text-decoration: none;">
                 <i class="far fa-play-circle fa-10x text-secondary ica"></i>
                 <br>
                 <p class="pr-4 pt-2 text-secondary text-fut-bold">Смотреть видео</p>
