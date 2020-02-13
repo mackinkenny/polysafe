@@ -14,7 +14,14 @@
         </video>
         </a>
     </div>
-<div class="" id="main" style="padding-top:5%; padding-bottom:4%;">
+<div class="pt-lg-5 pt-0" id="main" style=" padding-bottom:4%;">
+    <div class="container-fluid text-center d-lg-none d-block">
+        <a data-fancybox="gallery2" href="{{asset('images/mainvids.mp4')}}" style="text-decoration: none;">
+            <i class="far fa-play-circle fa-4x text-secondary ica"></i>
+            <br>
+            <p class=" pt-2 text-secondary text-fut-bold">Смотреть видео</p>
+        </a>
+    </div>
     <div class="container-fluid main-ht" style="padding-left: 7%; height: 100vh;">
         <div class="row">
 
@@ -39,7 +46,7 @@
             <div class="col-1"></div>
             <div class="col-md-6 col-12 text-right d-md-block d-none" style="padding-top:15%;">
 
-                <a data-fancybox="gallery2" href="https://www.youtube.com/watch?v=KZsMTLbv1Ks&feature=youtu.be" style="text-decoration: none;">
+                <a data-fancybox="gallery2" href="{{asset('images/mainvids.mp4')}}" style="text-decoration: none;">
                 <i class="far fa-play-circle fa-10x text-secondary ica"></i>
                 <br>
                 <p class="pr-4 pt-2 text-secondary text-fut-bold">Смотреть видео</p>
@@ -649,7 +656,7 @@
                                     Смонтировали быстро, натянули ламели. Мыть сказали раз в год весной - тряпкой с мыльным раствором.
                                     Жена довольна, теперь окна можно открывать - не страшно оставлять ребенка с бабушкой. Душа спокойна."
                                     <div class="pt-4 text-fut-bold">
-                                        Айдана Кулатова
+                                        Алиаскар Кулатов
                                     </div>
                                 </div>
 
@@ -703,110 +710,146 @@
             <div class="carousel-inner"  style="width:80vw!important; height: 120vh!important;">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery1.png') }}">
+                        <div class="col-4">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery/1.jpg') }}">
                             <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                            <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
+                            <img class="gallery w-100" src="{{ asset('images/gallery/1.jpg') }}" alt="">
                             </div>
                         </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery2.png') }}">
+                        </div>
+                        <div class="col-4">
+                        <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/2.jpg') }}">
                             <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
+                                <img class="gallery w-100" src="{{ asset('images/gallery/2.jpg') }}" alt="">
                             </div>
                         </a>
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery3.png') }}">
+                        </div>
+                        <div class="col-4">
+                        <a class="p-3 h-100 mt-auto w-100" data-fancybox="gallery" href="{{ asset('images/gallery/3.jpg') }}">
                             <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
+                                <img class="gallery w-100" src="{{ asset('images/gallery/3.jpg') }}" alt="">
                             </div>
                         </a>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery4.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery5.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery6.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery1.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery2.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery3.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="row justify-content-center">
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery4.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery5.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery6.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
-                            </div>
-                        </a>
+                        <div class="col-4">
+                            <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery/4.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/4.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/5.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/5.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/6.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/6.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery1.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery2.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery3.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
-                            </div>
-                        </a>
+                        <div class="col-4">
+                            <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery/7.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/7.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/8.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/8.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 mt-auto w-100" data-fancybox="gallery" href="{{ asset('images/gallery/9.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/9.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery4.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery5.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
-                            </div>
-                        </a>
-                        <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery6.png') }}">
-                            <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
-                                <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
-                            </div>
-                        </a>
+                        <div class="col-4">
+                            <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery/10.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/10.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/11.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/11.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/12.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/12.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <a class="p-3 h-100 mt-auto" data-fancybox="gallery" href="{{ asset('images/gallery/13.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/13.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/14.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/14.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 mt-auto w-100" data-fancybox="gallery" href="{{ asset('images/gallery/15.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/15.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-4">
+                            <a class="p-3 h-100" data-fancybox="gallery" href="{{ asset('images/gallery/16.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/16.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/17.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/17.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-4">
+                            <a class="p-3 h-100 w-100" data-fancybox="gallery" href="{{ asset('images/gallery/18.jpg') }}">
+                                <div style="background: linear-gradient(to right,#42559B,#00D9C0);">
+                                    <img class="gallery w-100" src="{{ asset('images/gallery/18.jpg') }}" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -928,7 +971,7 @@
                     как можно быстрее
                 </p>
                 <p class="mb-0 text-fut-light">Телефон:</p>
-                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996553803838</a></p>
+                <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996554803838" style="color:black;">+996557088444</a></p>
                 <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996557088444" style="color:black;">+996705088444</a></p>
                 <p class="mb-0"><a class="font-weight-bold text-fut-bold" href="tel: +996703803838" style="color:black;">+996557088444</a></p>
                 <p class="mb-0 text-fut-light">E-mail:</p>

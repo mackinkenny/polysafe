@@ -108,6 +108,7 @@ body{
 .gallery {
    opacity: 1;
     transition: 0.2s linear;
+    max-height: 389px;
 }
 .gallery:hover {
    opacity: 0.4;
