@@ -15,11 +15,11 @@
         </a>
     </div>
 <div class="pt-lg-5 pt-0" id="main" style=" padding-bottom:4%;">
-    <div class="container-fluid text-center d-lg-none d-block">
-        <a data-fancybox="gallery2" href="{{asset('images/mainvids.mp4')}}" style="text-decoration: none;">
-            <i class="far fa-play-circle fa-4x text-secondary ica"></i>
+    <div class="container-fluid text-center d-lg-none d-block" style="outline:none;">
+        <a data-fancybox="gallery2" href="{{asset('images/mainvids.mp4')}}" style="outline:none;text-decoration: none;">
+            <i class="far fa-play-circle fa-4x text-secondary ica" style="outline:none;"></i>
             <br>
-            <p class=" pt-2 text-secondary text-fut-bold">Смотреть видео</p>
+            <p class=" pt-2 text-secondary text-fut-bold" style="outline:none;">Смотреть видео</p>
         </a>
     </div>
     <div class="container-fluid main-ht" style="padding-left: 7%; height: 100vh;">
