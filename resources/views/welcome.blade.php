@@ -873,46 +873,131 @@
             <div class="carousel-inner" style="width:80vw!important; height: 400px!important;">
                 <div class="carousel-item active">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery1.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery1.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/1.jpg') }}">
+                        <img class="gallery" src="{{ asset('images/gallery/1.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery2.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery2.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/2.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/2.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery3.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery3.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/3.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/3.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery4.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery4.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/4.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/4.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery5.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery5.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/5.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/5.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="row justify-content-center">
-                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery6.png') }}">
-                        <img class="gallery" src="{{ asset('images/gallery6.png') }}" alt="">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/6.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/6.jpg') }}" alt="">
                         </a>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/7.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/7.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/8.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/8.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/9.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/9.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/10.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/10.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/11.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/11.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/12.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/12.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/13.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/13.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/14.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/14.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/15.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/15.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/16.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/16.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/17.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/17.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <a class="p-3 h-100 mt-auto" data-fancybox="gallery1" href="{{ asset('images/gallery/18.jpg') }}">
+                            <img class="gallery" src="{{ asset('images/gallery/18.jpg') }}" alt="">
+                        </a>
+                    </div>
+                </div>
+
             </div>
             <a  class="carousel-control-prev" href="#carouselgallery-mob" role="button" data-slide="prev">
                 <i class="fas fa-chevron-left" style="font-size:30px; color:black;"></i>
