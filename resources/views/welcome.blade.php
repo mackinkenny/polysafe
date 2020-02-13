@@ -2,13 +2,13 @@
 @push('styles')
 @endpush
 @section('content')
-    <video class="w-100 d-md-block d-none" style="position: absolute; opacity: 0.5" preload="metadata" autoplay muted loop playsinline>
+    <video class="w-100 d-md-block d-none" style="position: absolute; opacity: 0.5" autoplay muted loop playsinline>
         <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="d-md-none d-block" style="padding-top:20%;">
         <a href="{{URL::asset("/images/Polysafe.mp4")}}">
-        <video class="w-100" preload="metadata" autoplay muted loop playsinline>
+        <video class="w-100" autoplay muted loop playsinline>
             <source src="{{URL::asset("/images/Polysafe.mp4")}}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
