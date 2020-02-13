@@ -77,13 +77,13 @@
 <nav class="d-xl-none navbar fixed-bottom navbar-expand-lg px-0 py-0 shadow-top" >
     <div class="container-fluid p-0">
         <div class="col-3 p-0 mr-auto" style="border-top-right-radius: 40px; background-color: #00D9C0;">
-            <a href="https://api.whatsapp.com/send?phone=996554803838" class="nav-link text-center px-0 py-2" style="color:white">
+            <a href="https://api.whatsapp.com/send?phone=996557088444" class="nav-link text-center px-0 py-2" style="color:white">
                 <i class="fab fa-whatsapp fa-2x" aria-hidden="true"></i>
             </a>
         </div>
 
         <div class="col-3 p-0" style="border-top-left-radius: 40px; background-color: #00D9C0;">
-            <a href="tel: +996554803838" class="nav-link  text-center px-0 py-2" style="color:white">
+            <a href="tel: +996557088444" class="nav-link  text-center px-0 py-2" style="color:white">
                 <i class="fa fa-phone fa-2x"></i>
             </a>
         </div>
